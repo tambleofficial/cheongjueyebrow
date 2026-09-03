@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="theme-color" content="#f3efe8" />
+
+  <title>청주 눈썹문신 | BELLE MYU 벨르뮤 청주본점</title>
+  <meta name="description" content="청주 눈썹문신을 알아보고 있다면 얼굴형, 눈매, 평소 메이크업 습관까지 함께 살펴보는 벨르뮤 청주본점의 맞춤 디자인 과정을 확인해보세요." />
+  <meta name="keywords" content="청주 눈썹문신, 청주눈썹, 청주 눈썹 디자인, 벨르뮤 청주본점, BELLE MYU" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:title" content="청주 눈썹문신 | BELLE MYU 벨르뮤 청주본점" />
+  <meta property="og:description" content="유행을 그대로 따라가기보다 내 얼굴에 자연스럽게 남는 눈썹 디자인을 찾는 과정." />
+  <meta property="og:image" content="./images/og-belle-myu-cheongju.jpg" />
+
+  <!-- 실제 도메인 적용 후 canonical 주소를 입력하세요. -->
+  <!-- <link rel="canonical" href="https://example.com/" /> -->
+
+  <style>
+    :root {
+      --paper: #f3efe8;
+      --paper-2: #ebe4d9;
+      --ink: #25231f;
+      --muted: #726d65;
+      --line: rgba(37, 35, 31, 0.14);
+      --accent: #8e735e;
+      --accent-deep: #5f4d3e;
+      --white: #fffdf8;
+      --shadow: 0 24px 70px rgba(56, 43, 31, 0.11);
+      --serif: "Cormorant Garamond", "Noto Serif KR", Georgia, serif;
+      --sans: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --max: 1240px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      word-break: keep-all;
+      line-height: 1.7;
+    }
+    body.menu-open { overflow: hidden; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea { font: inherit; }
+    img { display: block; width: 100%; }
+
+    .site-shell { overflow: hidden; }
+    .container { width: min(calc(100% - 48px), var(--max)); margin: 0 auto; }
+    .section { padding: clamp(88px, 10vw, 154px) 0; position: relative; }
+    .section-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 22px;
+      color: var(--accent-deep);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+    .section-kicker::before { content: ""; width: 34px; height: 1px; background: currentColor; }
+    .section-title {
+      margin: 0;
+      max-width: 860px;
+      font-family: var(--serif);
+      font-size: clamp(42px, 6vw, 78px);
+      line-height: 1.04;
+      font-weight: 500;
+      letter-spacing: -0.035em;
+    }
+    .section-copy {
+      max-width: 640px;
+      margin: 28px 0 0;
+      color: var(--muted);
+      font-size: clamp(15px, 1.4vw, 18px);
+    }
+
+    .media {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 24% 20%, rgba(255,255,255,.58), transparent 28%),
+        linear-gradient(145deg, #d9cbbd, #bca995 58%, #8e7765);
+    }
+    .media::after {
+      content: attr(data-label);
+      position: absolute;
+      left: 18px;
+      bottom: 16px;
+      z-index: 1;
+      color: rgba(255,255,255,.88);
+      font-size: 10px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      pointer-events: none;
+    }
+    .media img { width: 100%; height: 100%; object-fit: cover; }
+    .media img[hidden] { display: none; }
+
+    /* Header */
+    .header {
+      position: fixed;
+      inset: 0 0 auto 0;
+      z-index: 1000;
+      height: 78px;
+      display: flex;
+      align-items: center;
+      transition: background .35s ease, border-color .35s ease, color .35s ease;
+      color: var(--white);
+      border-bottom: 1px solid transparent;
+    }
+    .header.is-scrolled {
+      color: var(--ink);
+      background: rgba(243,239,232,.9);
+      border-bottom-color: var(--line);
+      backdrop-filter: blur(14px) saturate(140%);
+    }
+    .header-inner {
+      width: min(calc(100% - 48px), 1380px);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      font-family: var(--serif);
+      font-size: 24px;
+      letter-spacing: .12em;
+      line-height: 1;
+    }
+    .brand-mark { width: 9px; height: 9px; border: 1px solid currentColor; transform: rotate(45deg); }
+    .nav { display: flex; align-items: center; gap: clamp(18px, 3vw, 42px); }
+    .nav a { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; opacity: .9; }
+    .nav a:hover { opacity: .55; }
+    .menu-btn {
+      display: none;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      width: 42px;
+      height: 42px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .menu-icon, .menu-icon::before, .menu-icon::after {
+      width: 22px; height: 1px; background: currentColor; display: block; position: relative;
+    }
+    .menu-icon::before, .menu-icon::after { content: ""; position: absolute; left: 0; }
+    .menu-icon::before { top: -7px; }
+    .menu-icon::after { top: 7px; }
+
+    /* Hero */
+    .hero { min-height: 100svh; position: relative; display: grid; align-items: end; color: var(--white); }
+    .hero-bg { position: absolute; inset: 0; background: linear-gradient(135deg, #8f7968, #b6a18f 52%, #6e5d51); }
+    .hero-bg::before {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(20,18,16,.14), rgba(20,18,16,.1) 42%, rgba(20,18,16,.65));
+      z-index: 1;
+    }
+    .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 38%; }
+    .hero-content { position: relative; z-index: 2; padding: 150px 0 clamp(54px, 8vw, 96px); }
+    .hero-eyebrow { font-size: 12px; letter-spacing: .24em; text-transform: uppercase; margin-bottom: 28px; opacity: .9; }
+    .hero h1 {
+      max-width: 1040px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(50px, 8.5vw, 116px);
+      font-weight: 500;
+      line-height: .94;
+      letter-spacing: -.045em;
+    }
+    .hero h1 strong { display: block; font-weight: 500; font-style: italic; }
+    .hero-bottom {
+      margin-top: 42px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 32px;
+      align-items: end;
+      border-top: 1px solid rgba(255,255,255,.32);
+      padding-top: 24px;
+    }
+    .hero-bottom p { max-width: 570px; margin: 0; color: rgba(255,255,255,.82); font-size: 15px; }
+    .hero-scroll { font-size: 10px; letter-spacing: .18em; text-transform: uppercase; white-space: nowrap; }
+
+    /* About */
+    .about { background: var(--white); }
+    .about-grid { display: grid; grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr); gap: clamp(42px, 7vw, 110px); align-items: center; }
+    .director-media { aspect-ratio: 4 / 5; border-radius: 180px 180px 18px 18px; box-shadow: var(--shadow); }
+    .about-note { margin-top: 34px; padding-top: 25px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 28px; }
+    .about-note strong { font-family: var(--serif); font-size: 24px; font-weight: 500; }
+    .about-note span { max-width: 310px; color: var(--muted); font-size: 14px; }
+    .career-list { margin: 42px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+    .career-list li { display: grid; grid-template-columns: 50px 1fr; gap: 18px; padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+    .career-list b { color: var(--accent); font-weight: 700; }
+
+    /* Why */
+    .why { background: var(--paper); }
+    .why-head { display: grid; grid-template-columns: 1.2fr .8fr; gap: 48px; align-items: end; }
+    .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: 70px; background: var(--line); border: 1px solid var(--line); }
+    .why-card { min-height: 300px; padding: 34px 28px; background: var(--paper); display: flex; flex-direction: column; }
+    .why-num { font-family: var(--serif); font-size: 50px; color: rgba(95,77,62,.32); line-height: 1; }
+    .why-card h3 { margin: auto 0 12px; font-family: var(--serif); font-size: 28px; font-weight: 500; }
+    .why-card p { margin: 0; color: var(--muted); font-size: 14px; }
+
+    /* Program */
+    .program { background: #28241f; color: var(--white); }
+    .program .section-kicker, .program .section-copy { color: rgba(255,255,255,.66); }
+    .program-list { margin-top: 72px; border-top: 1px solid rgba(255,255,255,.18); }
+    .program-row {
+      display: grid;
+      grid-template-columns: 100px minmax(220px, .8fr) minmax(280px, 1fr) minmax(240px, .7fr);
+      gap: 34px;
+      align-items: center;
+      padding: 26px 0;
+      border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+    .program-no { color: rgba(255,255,255,.38); font-family: var(--serif); font-size: 26px; }
+    .program-row h3 { margin: 0; font-family: var(--serif); font-size: clamp(29px, 3vw, 42px); font-weight: 500; }
+    .program-row p { margin: 0; color: rgba(255,255,255,.66); font-size: 14px; }
+    .program-thumb { aspect-ratio: 16 / 9; border-radius: 4px; }
+
+    /* Portfolio */
+    .portfolio { background: var(--white); }
+    .portfolio-top { display: flex; justify-content: space-between; gap: 40px; align-items: end; }
+    .filter { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+    .filter button {
+      border: 1px solid var(--line);
+      background: transparent;
+      padding: 9px 13px;
+      border-radius: 999px;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 11px;
+      letter-spacing: .05em;
+    }
+    .filter button.active, .filter button:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+    .portfolio-grid { margin-top: 48px; display: grid; grid-template-columns: repeat(12, 1fr); grid-auto-flow: dense; gap: 14px; }
+    .work { min-height: 280px; }
+    .work:nth-child(1), .work:nth-child(6) { grid-column: span 6; aspect-ratio: 6/4; }
+    .work:nth-child(2), .work:nth-child(3), .work:nth-child(4), .work:nth-child(5), .work:nth-child(7), .work:nth-child(8) { grid-column: span 3; aspect-ratio: 1/1.2; }
+    .work[hidden] { display: none; }
+
+    /* Process */
+    .process { background: var(--paper-2); }
+    .process-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(48px, 8vw, 118px); align-items: start; }
+    .process-media { aspect-ratio: 4/5; position: sticky; top: 110px; }
+    .steps { border-top: 1px solid var(--line); }
+    .step { display: grid; grid-template-columns: 74px 1fr; gap: 22px; padding: 30px 0; border-bottom: 1px solid var(--line); }
+    .step b { font-family: var(--serif); font-size: 34px; color: rgba(95,77,62,.42); font-weight: 500; }
+    .step h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 30px; font-weight: 500; }
+    .step p { margin: 0; color: var(--muted); font-size: 14px; }
+
+    /* Space */
+    .space { background: var(--paper); }
+    .space-grid { margin-top: 56px; display: grid; grid-template-columns: 1.4fr .7fr .7fr; grid-template-rows: auto auto; gap: 14px; }
+    .space-grid .media:nth-child(1) { grid-row: span 2; min-height: 660px; }
+    .space-grid .media:not(:first-child) { aspect-ratio: 1/1; }
+
+    /* Review */
+    .review { background: var(--white); }
+    .review-grid { margin-top: 58px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .review-card { padding: 34px 30px 30px; border: 1px solid var(--line); min-height: 275px; display: flex; flex-direction: column; }
+    .review-card .stars { letter-spacing: .18em; color: var(--accent); font-size: 12px; }
+    .review-card p { margin: 34px 0 40px; font-family: var(--serif); font-size: 24px; line-height: 1.5; }
+    .review-card small { margin-top: auto; color: var(--muted); font-size: 12px; }
+
+    /* Instagram */
+    .instagram { background: var(--paper); padding: 0 0 clamp(88px, 10vw, 140px); }
+    .ig-head { display: flex; justify-content: space-between; gap: 30px; align-items: center; padding: 34px 0; border-top: 1px solid var(--line); }
+    .ig-head strong { font-family: var(--serif); font-size: clamp(28px, 4vw, 50px); font-weight: 500; }
+    .ig-head a { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+    .ig-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+    .ig-grid .media { aspect-ratio: 1; }
+
+    /* Contact */
+    .contact { position: relative; min-height: 700px; display: grid; align-items: center; color: var(--white); }
+    .contact-bg { position: absolute; inset: 0; background: linear-gradient(140deg, #5f5045, #8d7868); }
+    .contact-bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(25,22,19,.74), rgba(25,22,19,.2)); }
+    .contact-bg img { height: 100%; object-fit: cover; }
+    .contact-content { position: relative; z-index: 2; padding: 110px 0; }
+    .contact h2 { max-width: 840px; margin: 0; font-family: var(--serif); font-size: clamp(48px, 7vw, 96px); font-weight: 500; line-height: .98; }
+    .contact p { max-width: 540px; margin: 30px 0 0; color: rgba(255,255,255,.78); }
+    .contact-actions { margin-top: 42px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn { min-width: 168px; display: inline-flex; justify-content: center; align-items: center; gap: 12px; padding: 14px 20px; border: 1px solid rgba(255,255,255,.58); font-size: 13px; }
+    .btn.primary { background: var(--white); color: var(--ink); border-color: var(--white); }
+
+    /* Footer */
+    .footer { background: #1f1c19; color: rgba(255,255,255,.72); padding: 56px 0 30px; }
+    .footer-grid { display: grid; grid-template-columns: 1.2fr .8fr .8fr; gap: 50px; padding-bottom: 42px; }
+    .footer-brand { font-family: var(--serif); color: var(--white); font-size: 32px; letter-spacing: .1em; }
+    .footer h4 { margin: 0 0 14px; color: rgba(255,255,255,.42); font-size: 10px; letter-spacing: .18em; text-transform: uppercase; }
+    .footer p { margin: 5px 0; font-size: 13px; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,.12); padding-top: 22px; display: flex; justify-content: space-between; gap: 20px; font-size: 11px; color: rgba(255,255,255,.38); }
+
+    /* reveal */
+    [data-reveal] { opacity: 0; transform: translateY(24px); transition: opacity .85s cubic-bezier(.16,1,.3,1), transform .85s cubic-bezier(.16,1,.3,1); }
+    [data-reveal].visible { opacity: 1; transform: none; }
+
+    @media (max-width: 980px) {
+      .nav { display: none; }
+      .menu-btn { display: inline-flex; }
+      .mobile-nav {
+        position: fixed; inset: 78px 0 0; z-index: 999;
+        background: rgba(243,239,232,.98);
+        color: var(--ink);
+        padding: 46px 24px;
+        transform: translateY(-120%);
+        transition: transform .4s cubic-bezier(.16,1,.3,1);
+      }
+      .mobile-nav.open { transform: none; }
+      .mobile-nav a { display: block; padding: 18px 0; border-bottom: 1px solid var(--line); font-family: var(--serif); font-size: 34px; }
+      .about-grid, .why-head, .process-grid { grid-template-columns: 1fr; }
+      .why-grid { grid-template-columns: repeat(2, 1fr); }
+      .program-row { grid-template-columns: 60px 1fr; }
+      .program-row p { grid-column: 2; }
+      .program-thumb { grid-column: 2; max-width: 520px; }
+      .process-media { position: relative; top: auto; max-width: 640px; }
+      .space-grid { grid-template-columns: 1fr 1fr; }
+      .space-grid .media:nth-child(1) { grid-column: 1 / -1; grid-row: auto; min-height: 520px; }
+      .review-grid { grid-template-columns: 1fr; }
+      .ig-grid { grid-template-columns: repeat(3, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .footer-grid > :first-child { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 680px) {
+      .container, .header-inner { width: min(calc(100% - 34px), var(--max)); }
+      .section { padding: 82px 0; }
+      .header { height: 68px; }
+      .mobile-nav { inset: 68px 0 0; }
+      .hero-content { padding-top: 125px; }
+      .hero-bottom { grid-template-columns: 1fr; }
+      .hero-scroll { display: none; }
+      .about-note { display: grid; }
+      .why-grid { grid-template-columns: 1fr; }
+      .why-card { min-height: 235px; }
+      .program-list { margin-top: 50px; }
+      .program-row { grid-template-columns: 42px 1fr; gap: 18px; }
+      .program-row p, .program-thumb { grid-column: 1 / -1; }
+      .portfolio-top { display: grid; }
+      .filter { justify-content: flex-start; }
+      .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+      .work, .work:nth-child(n) { grid-column: span 1; aspect-ratio: 1/1.18; min-height: 0; }
+      .work:first-child { grid-column: 1 / -1; aspect-ratio: 1.4/1; }
+      .space-grid { grid-template-columns: 1fr 1fr; }
+      .space-grid .media:nth-child(1) { min-height: 430px; }
+      .review-card { min-height: 240px; }
+      .ig-grid { grid-template-columns: repeat(2, 1fr); }
+      .contact { min-height: 630px; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-grid > :first-child { grid-column: auto; }
+      .footer-bottom { flex-direction: column; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "BELLE MYU 벨르뮤 청주본점",
+    "description": "청주 눈썹문신 및 개인 맞춤 눈썹 디자인 상담을 제공하는 벨르뮤 청주본점",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "서현동로 17 자연빌딩 4층",
+      "addressLocality": "청주시 흥덕구",
+      "addressRegion": "충청북도",
+      "addressCountry": "KR"
+    },
+    "areaServed": "청주",
+    "knowsAbout": ["청주 눈썹문신", "눈썹 디자인", "입술 톤 디자인", "속눈썹 디자인"]
+  }
+  </script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="header" id="siteHeader">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="BELLE MYU 홈">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>BELLE MYU</span>
+        </a>
+        <nav class="nav" aria-label="주요 메뉴">
+          <a href="#about">About</a>
+          <a href="#program">Program</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#space">Space</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="모바일 메뉴 열기" aria-expanded="false">
+          <span class="menu-icon"></span>
+        </button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴">
+      <a href="#about">About</a>
+      <a href="#program">Program</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#space">Space</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- 01. HERO -->
+    <section class="hero" id="top">
+      <div class="hero-bg">
+        <img src="./images/hero.jpg" alt="청주 눈썹문신 벨르뮤 청주본점 메인 이미지" onerror="this.hidden=true" />
+      </div>
+      <div class="container hero-content" data-reveal>
+        <div class="hero-eyebrow">Cheongju Brow Design · BELLE MYU</div>
+        <h1>눈썹 하나를 고르는 일이 아니라,<strong>내 인상을 정리하는 일.</strong></h1>
+        <div class="hero-bottom">
+          <p>청주 눈썹문신을 찾을 때 사진 속 유행만 좇기보다, 내 얼굴에서 어떤 선이 가장 편안한지부터 살펴보세요. 벨르뮤는 현재 눈썹의 결, 좌우 밸런스, 평소 화장 습관을 함께 확인하며 방향을 잡습니다.</p>
+          <a class="hero-scroll" href="#about">Discover ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. ABOUT / DIRECTOR -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="media director-media" data-label="Director Portrait" data-reveal>
+          <img src="./images/director.jpg" alt="벨르뮤 청주본점 디렉터" onerror="this.hidden=true" />
+        </div>
+        <div data-reveal>
+          <div class="section-kicker">Director's Approach</div>
+          <h2 class="section-title">얼굴을 먼저 읽고,<br />눈썹은 그 다음에 그립니다.</h2>
+          <p class="section-copy">같은 아치형이라도 이마의 폭, 눈과 눈썹 사이 거리, 웃을 때 움직이는 표정에 따라 보이는 인상은 달라집니다. 그래서 벨르뮤 청주본점은 정해진 한 가지 모양보다, 실제 생활 속에서 자연스럽게 이어질 형태를 함께 찾는 데 초점을 둡니다.</p>
+          <div class="about-note">
+            <strong>BELLE MYU<br />CHEONGJU</strong>
+            <span>상담에서 원하는 분위기와 피하고 싶은 느낌을 구체적으로 나누고, 디자인 단계에서 라인을 직접 확인한 뒤 진행 방향을 결정합니다.</span>
+          </div>
+          <ul class="career-list">
+            <li><b>01</b><span>[대표원장 경력 또는 전문 교육 이력 입력]</span></li>
+            <li><b>02</b><span>[주요 디자인 분야 또는 활동 이력 입력]</span></li>
+            <li><b>03</b><span>[교육·수료·자격 관련 실제 정보 입력]</span></li>
+            <li><b>04</b><span>[브랜드 운영 철학을 뒷받침하는 실제 이력 입력]</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. WHY BELLE MYU -->
+    <section class="section why">
+      <div class="container">
+        <div class="why-head" data-reveal>
+          <div>
+            <div class="section-kicker">Why BELLE MYU</div>
+            <h2 class="section-title">예쁜 모양보다 중요한 네 가지 기준.</h2>
+          </div>
+          <p class="section-copy">청주 눈썹문신 샵을 비교할 때 결과 사진만 보게 되기 쉽지만, 실제 만족도는 상담과 디자인을 어떤 기준으로 풀어가는지에서 차이가 생깁니다.</p>
+        </div>
+        <div class="why-grid">
+          <article class="why-card" data-reveal>
+            <span class="why-num">01</span>
+            <h3>현재 눈썹 분석</h3>
+            <p>비어 보이는 구간, 숱이 몰린 부분, 꼬리 방향을 먼저 확인해 무엇을 더하고 무엇을 덜어낼지 정리합니다.</p>
+          </article>
+          <article class="why-card" data-reveal>
+            <span class="why-num">02</span>
+            <h3>인상 중심 설계</h3>
+            <p>눈썹만 따로 떼어 보지 않고 얼굴 윤곽과 눈매가 주는 느낌을 함께 놓고 길이와 높이를 조율합니다.</p>
+          </article>
+          <article class="why-card" data-reveal>
+            <span class="why-num">03</span>
+            <h3>대화로 좁히는 취향</h3>
+            <p>선호 사진뿐 아니라 평소 메이크업 강도와 직업, 원하는 분위기를 묻고 디자인 언어를 맞춰갑니다.</p>
+          </article>
+          <article class="why-card" data-reveal>
+            <span class="why-num">04</span>
+            <h3>일상에 맞는 마무리</h3>
+            <p>사진에서만 또렷한 형태보다 민낯과 가벼운 화장에서도 과하게 튀지 않는 균형을 목표로 합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. PROGRAM -->
+    <section class="section program" id="program">
+      <div class="container">
+        <div data-reveal>
+          <div class="section-kicker">Design Program</div>
+          <h2 class="section-title">필요한 부분만 골라<br />나에게 맞게 조정하는 프로그램.</h2>
+          <p class="section-copy">각 메뉴는 동일한 결과를 반복하는 방식이 아니라, 상담을 통해 현재 상태와 원하는 변화의 크기에 맞춰 세부 방향을 정합니다.</p>
+        </div>
+
+        <div class="program-list">
+          <article class="program-row" data-reveal>
+            <div class="program-no">01 / BROW</div>
+            <h3>청주 눈썹문신 디자인</h3>
+            <p>기존 결을 최대한 살리면서 빈 곳, 길이, 높이 차이를 정돈하는 방향을 제안합니다. 또렷함의 정도는 평소 스타일에 맞춰 조절합니다.</p>
+            <div class="media program-thumb" data-label="Brow Program"><img src="./images/program-brow.jpg" alt="청주 눈썹문신 디자인 프로그램" onerror="this.hidden=true" /></div>
+          </article>
+          <article class="program-row" data-reveal>
+            <div class="program-no">02 / LIP</div>
+            <h3>입술 톤 디자인</h3>
+            <p>피부톤과 평소 사용하는 립 컬러를 바탕으로 얼굴에서 동떨어지지 않는 색의 범위를 상담하고 전체 인상과의 조화를 확인합니다.</p>
+            <div class="media program-thumb" data-label="Lip Program"><img src="./images/program-lip.jpg" alt="벨르뮤 입술 톤 디자인" onerror="this.hidden=true" /></div>
+          </article>
+          <article class="program-row" data-reveal>
+            <div class="program-no">03 / LASH</div>
+            <h3>속눈썹 디자인</h3>
+            <p>눈매가 답답하거나 과장되어 보이지 않도록 길이와 컬의 방향을 선택하고, 평소 관리 방식까지 고려해 디자인합니다.</p>
+            <div class="media program-thumb" data-label="Lash Program"><img src="./images/program-lash.jpg" alt="벨르뮤 속눈썹 디자인" onerror="this.hidden=true" /></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. PORTFOLIO -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="portfolio-top" data-reveal>
+          <div>
+            <div class="section-kicker">Portfolio</div>
+            <h2 class="section-title">서로 다른 얼굴에는<br />서로 다른 답이 필요합니다.</h2>
+          </div>
+          <div class="filter" aria-label="포트폴리오 필터">
+            <button class="active" type="button" data-filter="all">All</button>
+            <button type="button" data-filter="brow">Brow</button>
+            <button type="button" data-filter="lip">Lip</button>
+            <button type="button" data-filter="lash">Lash</button>
+          </div>
+        </div>
+
+        <div class="portfolio-grid" data-reveal>
+          <figure class="media work" data-category="brow" data-label="Brow 01"><img src="./images/portfolio-01.jpg" alt="청주 눈썹 디자인 포트폴리오 1" onerror="this.hidden=true" /></figure>
+          <figure class="media work" data-category="brow" data-label="Brow 02"><img src="./images/portfolio-02.jpg" alt="청주 눈썹 디자인 포트폴리오 2" onerror="this.hidden=true" /></figure>
+          <figure class="media work" data-category="lip" data-label="Lip 01"><img src="./images/portfolio-03.jpg" alt="벨르뮤 입술 디자인 포트폴리오" onerror="this.hidden=true" /></figure>
+          <figure class="media work" data-category="brow" data-label="Brow 03"><img src="./images/portfolio-04.jpg" alt="청주 눈썹 디자인 포트폴리오 3" onerror="this.hidden=true" /></figure>
+          <figure class="media work" data-category="lash" data-label="Lash 01"><img src="./images/portfolio-05.jpg" alt="벨르뮤 속눈썹 디자인 포트폴리오" onerror="this.hidden=true" /></figure>
+          <figure class="media work" data-category="brow" data-label="Brow 04"><img src="./images/portfolio-06.jpg" alt="청주 눈썹 디자인 포트폴리오 4" onerror="this.hidden=true" /></figure>
+          <figure class="media work" data-category="lip" data-label="Lip 02"><img src="./images/portfolio-07.jpg" alt="벨르뮤 입술 디자인 포트폴리오 2" onerror="this.hidden=true" /></figure>
+          <figure class="media work" data-category="brow" data-label="Brow 05"><img src="./images/portfolio-08.jpg" alt="청주 눈썹 디자인 포트폴리오 5" onerror="this.hidden=true" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06. PROCESS -->
+    <section class="section process">
+      <div class="container process-grid">
+        <div class="media process-media" data-label="Consultation Scene" data-reveal>
+          <img src="./images/process.jpg" alt="벨르뮤 청주본점 상담 과정" onerror="this.hidden=true" />
+        </div>
+        <div data-reveal>
+          <div class="section-kicker">The Process</div>
+          <h2 class="section-title">처음 상담부터 마지막 안내까지, 순서를 분명하게.</h2>
+          <p class="section-copy">낯선 과정을 한 번에 결정하지 않도록 단계마다 확인 포인트를 두고 진행합니다.</p>
+          <div class="steps">
+            <article class="step">
+              <b>01</b>
+              <div><h3>상태 확인</h3><p>현재 눈썹 모양과 피부 상태, 평소 불편했던 지점을 먼저 살펴봅니다.</p></div>
+            </article>
+            <article class="step">
+              <b>02</b>
+              <div><h3>취향 상담</h3><p>원하는 인상과 피하고 싶은 느낌, 참고 사진이 있다면 함께 비교해 방향을 좁힙니다.</p></div>
+            </article>
+            <article class="step">
+              <b>03</b>
+              <div><h3>라인 체크</h3><p>얼굴 위에서 길이와 각도, 좌우 균형을 직접 확인하고 수정할 부분을 조율합니다.</p></div>
+            </article>
+            <article class="step">
+              <b>04</b>
+              <div><h3>마무리 안내</h3><p>진행 후 일상에서 확인할 점과 관리 방법을 정리해 안내합니다.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07. SPACE -->
+    <section class="section space" id="space">
+      <div class="container">
+        <div data-reveal>
+          <div class="section-kicker">The Space</div>
+          <h2 class="section-title">상담에 집중할 수 있도록<br />차분하게 정돈한 공간.</h2>
+          <p class="section-copy">방문부터 상담, 디자인 확인까지 서두르지 않고 이야기할 수 있는 흐름을 생각해 공간을 구성했습니다.</p>
+        </div>
+        <div class="space-grid">
+          <figure class="media" data-label="Space Main" data-reveal><img src="./images/space-01.jpg" alt="벨르뮤 청주본점 내부 공간" onerror="this.hidden=true" /></figure>
+          <figure class="media" data-label="Consult Room" data-reveal><img src="./images/space-02.jpg" alt="벨르뮤 상담 공간" onerror="this.hidden=true" /></figure>
+          <figure class="media" data-label="Detail" data-reveal><img src="./images/space-03.jpg" alt="벨르뮤 공간 디테일" onerror="this.hidden=true" /></figure>
+          <figure class="media" data-label="Mood" data-reveal><img src="./images/space-04.jpg" alt="벨르뮤 청주본점 공간 분위기" onerror="this.hidden=true" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08. REVIEW -->
+    <section class="section review">
+      <div class="container">
+        <div data-reveal>
+          <div class="section-kicker">Review Points</div>
+          <h2 class="section-title">방문 후 이야기에서<br />자주 언급되는 포인트.</h2>
+          <p class="section-copy">아래 문구는 실제 리뷰를 넣기 전 구성 예시입니다. 운영 중인 네이버·SNS의 실제 고객 후기 문장으로 교체하면 신뢰도와 검색 연관성을 함께 높일 수 있습니다.</p>
+        </div>
+        <div class="review-grid">
+          <article class="review-card" data-reveal>
+            <div class="stars">★★★★★</div>
+            <p>“원하는 사진을 보여주는 데서 끝나지 않고 제 얼굴에서는 어디를 조정하면 좋을지 설명해준 점이 기억에 남았어요.”</p>
+            <small>실제 고객 리뷰로 교체 권장 · Brow</small>
+          </article>
+          <article class="review-card" data-reveal>
+            <div class="stars">★★★★★</div>
+            <p>“처음부터 진하게 정하기보다 라인을 보고 조금씩 수정할 수 있어서 제 취향을 말하기 편했어요.”</p>
+            <small>실제 고객 리뷰로 교체 권장 · Design</small>
+          </article>
+          <article class="review-card" data-reveal>
+            <div class="stars">★★★★★</div>
+            <p>“샵을 고를 때 청주 눈썹문신 후기를 많이 봤는데, 상담 방식까지 확인하고 결정하길 잘했다는 생각이 들었어요.”</p>
+            <small>실제 고객 리뷰로 교체 권장 · Consultation</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09. INSTAGRAM -->
+    <section class="instagram">
+      <div class="container">
+        <div class="ig-head" data-reveal>
+          <strong>Instagram · @belle_myu</strong>
+          <a href="#" aria-label="벨르뮤 인스타그램 링크">View Instagram ↗</a>
+        </div>
+        <div class="ig-grid" data-reveal>
+          <figure class="media" data-label="Instagram 01"><img src="./images/instagram-01.jpg" alt="벨르뮤 인스타그램 이미지 1" onerror="this.hidden=true" /></figure>
+          <figure class="media" data-label="Instagram 02"><img src="./images/instagram-02.jpg" alt="벨르뮤 인스타그램 이미지 2" onerror="this.hidden=true" /></figure>
+          <figure class="media" data-label="Instagram 03"><img src="./images/instagram-03.jpg" alt="벨르뮤 인스타그램 이미지 3" onerror="this.hidden=true" /></figure>
+          <figure class="media" data-label="Instagram 04"><img src="./images/instagram-04.jpg" alt="벨르뮤 인스타그램 이미지 4" onerror="this.hidden=true" /></figure>
+          <figure class="media" data-label="Instagram 05"><img src="./images/instagram-05.jpg" alt="벨르뮤 인스타그램 이미지 5" onerror="this.hidden=true" /></figure>
+          <figure class="media" data-label="Instagram 06"><img src="./images/instagram-06.jpg" alt="벨르뮤 인스타그램 이미지 6" onerror="this.hidden=true" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. RESERVATION / CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact-bg">
+        <img src="./images/contact.jpg" alt="벨르뮤 청주본점 예약 상담" onerror="this.hidden=true" />
+      </div>
+      <div class="container contact-content" data-reveal>
+        <div class="section-kicker">Reservation</div>
+        <h2>내 얼굴에 맞는 눈썹,<br />상담에서부터 시작하세요.</h2>
+        <p>청주 눈썹문신을 고민하고 있다면 원하는 모양을 미리 완벽하게 정해오지 않아도 괜찮습니다. 평소 고민과 선호하는 분위기를 알려주시면 상담을 통해 선택지를 정리해드립니다.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="#">네이버 예약 ↗</a>
+          <a class="btn" href="#">카카오 상담 →</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">BELLE MYU</div>
+            <p>청주 눈썹문신 · 맞춤 눈썹 디자인</p>
+          </div>
+          <div>
+            <h4>Location</h4>
+            <p>충북 청주시 흥덕구 서현동로 17</p>
+            <p>자연빌딩 4층 · 하나병원 뒤편</p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <p>[대표 전화번호 입력]</p>
+            <p>[운영시간 입력]</p>
+            <p>Instagram · [실제 계정 링크 입력]</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>[사업자명 / 대표자 / 사업자등록번호 등 실제 정보 입력]</span>
+          <span>© BELLE MYU CHEONGJU. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      const header = document.getElementById('siteHeader');
+      const menuBtn = document.getElementById('menuBtn');
+      const mobileNav = document.getElementById('mobileNav');
+
+      const updateHeader = () => {
+        header.classList.toggle('is-scrolled', window.scrollY > 28);
+      };
+      updateHeader();
+      window.addEventListener('scroll', updateHeader, { passive: true });
+
+      menuBtn.addEventListener('click', () => {
+        const willOpen = !mobileNav.classList.contains('open');
+        mobileNav.classList.toggle('open', willOpen);
+        document.body.classList.toggle('menu-open', willOpen);
+        menuBtn.setAttribute('aria-expanded', String(willOpen));
+      });
+
+      mobileNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileNav.classList.remove('open');
+          document.body.classList.remove('menu-open');
+          menuBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      const revealObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+      document.querySelectorAll('[data-reveal]').forEach(el => revealObserver.observe(el));
+
+      const filterButtons = document.querySelectorAll('[data-filter]');
+      const works = document.querySelectorAll('.work');
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const filter = button.dataset.filter;
+          filterButtons.forEach(btn => btn.classList.toggle('active', btn === button));
+          works.forEach(work => {
+            work.hidden = filter !== 'all' && work.dataset.category !== filter;
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
