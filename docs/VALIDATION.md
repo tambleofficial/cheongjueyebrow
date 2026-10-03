@@ -58,3 +58,9 @@
 - 사용자 제공 탬블_네이버최적화_AI개발자_최종지시서.pdf (20쪽)
 - https://developers.cloudflare.com/pages/functions/advanced-mode/
 - https://developers.cloudflare.com/pages/configuration/serving-pages/
+
+## S-Core Dream 디자인 보완 (후속 요청)
+
+제목·본문·로고·메뉴·버튼·푸터를 S-Core Dream으로 통일했습니다. 제목 크기와 행간을 정돈하고 웜 아이보리·브라운 배색, 사진 프레임, 여백, 번호형 안내 카드, 버튼 스타일을 조정했습니다. 모바일에서는 문의 버튼 가독성을 유지하면서 사진 갤러리의 밀도를 조정했습니다.
+
+이번 수정은 공통 CSS에 한정합니다. 기존 납품 ZIP과 모든 HTML의 바이트가 동일하므로 메타정보·본문·링크·구조화데이터는 그대로 유지됩니다.
