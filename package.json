@@ -1,0 +1,7 @@
+{
+  "name": "belle-myu-cheongju",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "node source/build.mjs", "check": "node source/check.mjs"},
+  "engines": {"node": ">=20"}
+}

@@ -1,0 +1,7 @@
+S-Core Dream / 에스코어 드림
+제작 및 권리자: (주)에스코어
+공식 글꼴 및 라이선스 안내: https://s-core.co.kr/company/font/
+무료 사용과 재배포가 허용되며, 폰트 파일 수정 및 폰트 자체 판매는 금지됩니다.
+이 패키지는 웹사이트 표시용으로 아래 웹폰트를 수정 없이 포함합니다.
+https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff
+https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff

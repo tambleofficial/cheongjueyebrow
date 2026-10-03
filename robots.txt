@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://cheongjueyebrow.pages.dev/sitemap.xml

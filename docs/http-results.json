@@ -1,0 +1,104 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/brow-design.html",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/consultation-process.html",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/portfolio-guide.html",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/faq-care.html",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/visit-location.html",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/rss.xml",
+    "status": 200,
+    "contentType": "application/rss+xml; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "contentType": "application/xml; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "contentType": "text/plain",
+    "location": null
+  },
+  {
+    "path": "/naver38f30a1e178ab296c7f5ea2a4e36e27e.html",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/missing-page",
+    "status": 404,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/source/data/site.json",
+    "status": 404,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  },
+  {
+    "path": "/index.html",
+    "status": 301,
+    "contentType": null,
+    "location": "http://localhost:4173/"
+  },
+  {
+    "path": "/brow-design",
+    "status": 301,
+    "contentType": null,
+    "location": "http://localhost:4173/brow-design.html"
+  },
+  {
+    "path": "/brow-design/",
+    "status": 301,
+    "contentType": null,
+    "location": "http://localhost:4173/brow-design.html"
+  },
+  {
+    "path": "/feed",
+    "status": 301,
+    "contentType": null,
+    "location": "http://localhost:4173/rss.xml"
+  },
+  {
+    "path": "/images/belle-myu/not-found.jpg",
+    "status": 404,
+    "contentType": "text/html; charset=utf-8",
+    "location": null
+  }
+]

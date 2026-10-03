@@ -1,0 +1,224 @@
+{
+  "screens": [
+    {
+      "width": 360,
+      "file": "index.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 5
+    },
+    {
+      "width": 360,
+      "file": "brow-design.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 360,
+      "file": "consultation-process.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 360,
+      "file": "portfolio-guide.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 360,
+      "file": "faq-care.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 360,
+      "file": "visit-location.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 390,
+      "file": "index.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 5
+    },
+    {
+      "width": 390,
+      "file": "brow-design.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 390,
+      "file": "consultation-process.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 390,
+      "file": "portfolio-guide.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 390,
+      "file": "faq-care.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 390,
+      "file": "visit-location.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 768,
+      "file": "index.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 5
+    },
+    {
+      "width": 768,
+      "file": "brow-design.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 768,
+      "file": "consultation-process.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 768,
+      "file": "portfolio-guide.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 768,
+      "file": "faq-care.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 768,
+      "file": "visit-location.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 1440,
+      "file": "index.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 5
+    },
+    {
+      "width": 1440,
+      "file": "brow-design.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 1440,
+      "file": "consultation-process.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 1440,
+      "file": "portfolio-guide.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 1440,
+      "file": "faq-care.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    },
+    {
+      "width": 1440,
+      "file": "visit-location.html",
+      "overflow": false,
+      "h1": 1,
+      "broken": [],
+      "main": true,
+      "cards": 0
+    }
+  ],
+  "itemList": "pass",
+  "faq": "pass",
+  "noJS": "pass",
+  "menuEscape": "pass"
+}

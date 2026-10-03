@@ -1,0 +1,148 @@
+{
+  "site": {
+    "baseUrl": "https://cheongjueyebrow.pages.dev/",
+    "business": {
+      "@type": "BeautySalon",
+      "name": "BELLE MYU 벨르뮤 청주본점",
+      "url": "https://cheongjueyebrow.pages.dev/",
+      "telephone": "0507-1318-3466",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "서현동로 17 자연빌딩 4층",
+        "addressLocality": "청주시 흥덕구",
+        "addressRegion": "충청북도",
+        "addressCountry": "KR"
+      },
+      "areaServed": "청주",
+      "sameAs": [
+        "https://www.instagram.com/belle.myu_miu/",
+        "https://pf.kakao.com/_lzrzn"
+      ],
+      "knowsAbout": [
+        "청주눈썹문신",
+        "청주 자연눈썹",
+        "얼굴형 맞춤 눈썹",
+        "눈썹 디자인"
+      ],
+      "@id": "https://cheongjueyebrow.pages.dev/#business",
+      "image": "https://cheongjueyebrow.pages.dev/images/belle-myu/bm-v3-11-interior.jpg"
+    },
+    "telephoneHref": "tel:050713183466",
+    "kakaoUrl": "https://pf.kakao.com/_lzrzn",
+    "instagramUrl": "https://www.instagram.com/belle.myu_miu/",
+    "addressDisplay": "충북 청주시 흥덕구 서현동로 17 자연빌딩 4층"
+  },
+  "carousel": {
+    "id": "featured-guide",
+    "name": "벨르뮤 이용 안내",
+    "items": [
+      {
+        "key": "brow-design",
+        "name": "눈썹 디자인",
+        "path": "/brow-design.html",
+        "imagePath": "/images/belle-myu/bm-v3-03-brow-closeup.jpg",
+        "imageAlt": "눈썹 앞머리와 결을 보여주는 사진",
+        "summary": "숱과 결, 얼굴형을 함께 살펴보는 디자인 기준",
+        "publish": true
+      },
+      {
+        "key": "consultation-process",
+        "name": "상담 과정",
+        "path": "/consultation-process.html",
+        "imagePath": "/images/belle-myu/bm-v3-02-consultation.jpg",
+        "imageAlt": "눈썹 상담 장면",
+        "summary": "현재 눈썹 확인부터 원하는 인상과 디자인 조율까지",
+        "publish": true
+      },
+      {
+        "key": "portfolio-guide",
+        "name": "포트폴리오 안내",
+        "path": "/portfolio-guide.html",
+        "imagePath": "/images/belle-myu/bm-v3-05-result-a.jpg",
+        "imageAlt": "눈썹과 전체 인상을 살펴보는 사진",
+        "summary": "앞머리·눈썹산·꼬리와 전체 얼굴의 균형 살펴보기",
+        "publish": true
+      },
+      {
+        "key": "faq-care",
+        "name": "방문 전 질문",
+        "path": "/faq-care.html",
+        "imagePath": "/images/belle-myu/bm-v3-07-mirror.jpg",
+        "imageAlt": "눈썹 디자인을 확인하는 모습",
+        "summary": "참고 사진과 원하는 스타일 등 상담 전 준비 안내",
+        "publish": true
+      },
+      {
+        "key": "visit-location",
+        "name": "매장·문의 안내",
+        "path": "/visit-location.html",
+        "imagePath": "/images/belle-myu/bm-v3-11-interior.jpg",
+        "imageAlt": "벨르뮤 청주본점 내부 공간",
+        "summary": "청주시 흥덕구 서현동로 17 자연빌딩 4층",
+        "publish": true
+      }
+    ]
+  },
+  "pages": [
+    {
+      "file": "index.html",
+      "path": "/",
+      "title": "청주눈썹문신 | 벨르뮤 청주본점 자연눈썹·맞춤 눈썹 디자인",
+      "description": "청주 눈썹문신 반영구 전문 뷰티샵. 자연스럽게 1:1 맞춤형 디자인하는 자연눈썹, 헤어스트록, 입술문신, 콤보눈썹, 쉐도우기법 전문",
+      "name": "벨르뮤 청주본점",
+      "imagePath": "/images/belle-myu/bm-v3-01-hero.jpg",
+      "imageAlt": "벨르뮤 눈썹 디자인 소개",
+      "modified": "2026-10-03"
+    },
+    {
+      "file": "brow-design.html",
+      "path": "/brow-design.html",
+      "title": "청주눈썹문신 디자인 | 자연눈썹·얼굴형 맞춤 벨르뮤 청주본점",
+      "description": "청주눈썹문신 디자인을 고민한다면 자연눈썹, 눈썹 앞머리, 눈썹산, 꼬리 길이, 좌우 비대칭과 얼굴형을 어떻게 함께 보는지 벨르뮤 청주본점의 상담 기준을 확인해보세요.",
+      "name": "눈썹 디자인",
+      "imagePath": "/images/belle-myu/bm-v3-03-brow-closeup.jpg",
+      "imageAlt": "눈썹 앞머리와 결을 보여주는 사진",
+      "modified": "2026-10-03"
+    },
+    {
+      "file": "consultation-process.html",
+      "path": "/consultation-process.html",
+      "title": "청주눈썹문신 상담 과정 | 디자인 확인부터 방문 안내 벨르뮤",
+      "description": "청주눈썹문신 상담 과정을 찾는 분을 위해 벨르뮤 청주본점의 현재 눈썹 확인, 얼굴형 상담, 원하는 눈썹 디자인 조율, 방문 전 준비와 진행 흐름을 안내합니다.",
+      "name": "상담 과정",
+      "imagePath": "/images/belle-myu/bm-v3-02-consultation.jpg",
+      "imageAlt": "눈썹 상담 장면",
+      "modified": "2026-10-03"
+    },
+    {
+      "file": "portfolio-guide.html",
+      "path": "/portfolio-guide.html",
+      "title": "청주눈썹문신 포트폴리오 | 자연눈썹 스타일·디자인 사례 벨르뮤",
+      "description": "청주눈썹문신 포트폴리오를 볼 때 눈썹 결, 앞머리, 눈썹산, 꼬리 길이와 전체 얼굴의 조화를 함께 비교해보세요. 벨르뮤 청주본점 자연눈썹 디자인 이미지를 확인할 수 있습니다.",
+      "name": "포트폴리오 안내",
+      "imagePath": "/images/belle-myu/bm-v3-05-result-a.jpg",
+      "imageAlt": "눈썹과 전체 인상을 살펴보는 사진",
+      "modified": "2026-10-03"
+    },
+    {
+      "file": "faq-care.html",
+      "path": "/faq-care.html",
+      "title": "청주눈썹문신 FAQ | 예약 전 준비·자연눈썹 상담 질문 벨르뮤",
+      "description": "청주눈썹문신 예약 전 궁금한 자연눈썹 디자인, 얼굴형 상담, 원하는 사진 준비, 기존 눈썹 확인, 매장 위치와 문의 방법을 벨르뮤 청주본점 FAQ에서 확인하세요.",
+      "name": "방문 전 질문",
+      "imagePath": "/images/belle-myu/bm-v3-07-mirror.jpg",
+      "imageAlt": "눈썹 디자인을 확인하는 모습",
+      "modified": "2026-10-03"
+    },
+    {
+      "file": "visit-location.html",
+      "path": "/visit-location.html",
+      "title": "청주눈썹문신 매장 안내 | 벨르뮤 청주본점 위치·예약·전화",
+      "description": "청주눈썹문신 벨르뮤 청주본점 위치는 충북 청주시 흥덕구 서현동로 17 자연빌딩 4층입니다. 매장 내부, 방문 안내, 전화 0507-1318-3466, 카카오톡 문의와 구글 지도를 확인하세요.",
+      "name": "매장·문의 안내",
+      "imagePath": "/images/belle-myu/bm-v3-11-interior.jpg",
+      "imageAlt": "벨르뮤 청주본점 내부 공간",
+      "modified": "2026-10-03"
+    }
+  ]
+}
